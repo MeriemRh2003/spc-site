@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .navbar {
   margin-top: 8px;
@@ -36,9 +36,8 @@ body {
   font-weight: 700;
   padding: 8px 12px;
 }
-.signup{
-
-	margin-right: 50px;
+.signup {
+  margin-right: 50px;
 }
 .signup a {
   background-color: #4335de;
@@ -48,7 +47,6 @@ body {
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-  
 }
 
 .menu-toggle {
@@ -252,4 +250,49 @@ body {
 
 .get-started:hover {
   background-color: #f4a500;
+}
+
+/* CORPORATE VALUES SECTION */
+.corporate-values {
+  background: linear-gradient(180deg, #f7c95f, #fdb235);
+  padding: 15px;
+  padding-bottom: 8rem;
+}
+.corporate-values-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.card {
+  background-color: white;
+  /* box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1); */
+  border-radius: 48px;
+  padding: 40px;
+  height: 13rem;
+  width: 20%;
+  color: #02033b;
+}
+.card p {
+  text-align: center;
+  max-width: 300px; /* Controls line break width */
+  margin: 0 auto; /* Centers the block itself */
+  line-height: 1.5;
+  padding: 2.3em;
+}
+.corporate-values h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 2.1em;
+  color: #02033b;
+  padding: 25px;
+  margin-bottom: 45px;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-weight: 800;
 }
