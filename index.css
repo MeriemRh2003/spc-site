@@ -88,3 +88,168 @@ body {
     text-align: center;
   }
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: #0a0a3a;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-left {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.footer-left h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-left p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.footer-left .disclaimer {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+.footer-right {
+  flex: 1 1 40%;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-box {
+  background-color: #ffc24b;
+  padding: 30px;
+  border-radius: 30px;
+  color: #000;
+  width: 100%;
+  max-width: 400px;
+}
+
+.newsletter-box h3 {
+  margin: 0 0 10px;
+}
+
+.newsletter-box p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #0a0a3a;
+  color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-right {
+    margin-top: 30px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-form button {
+    border-radius: 20px;
+  }
+}
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #111047;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #4a44d4;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.get-started {
+  background-color: #fbbc34;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.get-started:hover {
+  background-color: #f4a500;
+}
