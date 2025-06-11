@@ -943,3 +943,112 @@ body {
     left: 5px;
   }
 }
+/* Our Services Section - Mobile Responsiveness */
+@media (max-width: 768px) {
+  .aside {
+    padding: 40px 5%;
+  }
+
+  .div10 {
+    width: 100%;
+    height: auto;
+  }
+
+  .h21 {
+    position: relative;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .our-services {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .div11 {
+    position: relative;
+    top: auto;
+    left: auto;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div12 {
+    position: relative;
+    top: auto;
+    left: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .div13 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .a2, .a3, .a4 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: auto;
+    margin-bottom: 30px;
+  }
+
+  .figurelatest-insights-218357 {
+    width: 100%;
+    height: 200px;
+  }
+
+  .build-your-vision-with-our-web,
+  .equipe-mixte-de-programmeurs-t-icon,
+  .figurelatest-insights-217525-icon {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .div14, .div15, .div16 {
+    padding: 30px 20px;
+    gap: 15px;
+  }
+
+  .website-creation-and,
+  .community-management,
+  .design-and-graphics {
+    font-size: 20px;
+    line-height: 1.3;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .showcase-websites-dynamic-container,
+  .social-media-management-visual-container,
+  .brand-guidelines-logo-container {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .p, .p1, .p2 {
+    position: relative;
+    margin: 150px 0;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .professionalism {
+    font-size: 14px;
+  }
+}
