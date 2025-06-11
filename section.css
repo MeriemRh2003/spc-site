@@ -1,5 +1,7 @@
 /* Global box-sizing */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -9,359 +11,355 @@ body {
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
 .aside {
-    background-color: #f3f8ff;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    
-    text-align: center;
-    font-size: 56px;
-
+  background-color: #f3f8ff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: 56px;
   padding: 84px 5%;
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
 .div10 {
-    width: 1056px;
-    position: relative;
-    height: 807.5px;
+  width: 1056px;
+  position: relative;
+  height: 807.5px;
 }
 
 .h21 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 329.9px 0px 330.1px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 329.9px 0px 330.1px;
 }
 
 .our-services {
-    position: relative;
-    letter-spacing: -1.2px;
-    line-height: 75px;
-    font-weight: 800;
+  position: relative;
+  letter-spacing: -1.2px;
+  line-height: 75px;
+  font-weight: 800;
 }
 
 .div11 {
-    position: absolute;
-    top: 753px;
-    left: -15px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 442px 0px 418px;
-    font-size: 19px;
+  position: absolute;
+  top: 753px;
+  left: -15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 442px 0px 418px;
+  font-size: 19px;
 }
 
 .a1 {
-    border-radius: 42px;
-    background-color: #ffc247;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 16px 51.1px 15.5px 20px;
+  border-radius: 42px;
+  background-color: #ffc247;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 51.1px 15.5px 20px;
 }
 
 .span1 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
 }
 
 .get-started {
-    position: relative;
-    line-height: 22.5px;
-    font-weight: 800;
-    z-index: 0;
+  position: relative;
+  line-height: 22.5px;
+  font-weight: 800;
+  z-index: 0;
 }
 
 .spanafter-icon2 {
-    width: 20px;
-    position: absolute;
-    margin: 0 !important;
-    top: 5px;
-    left: 129.03px;
-    height: 14px;
-    z-index: 1;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: 5px;
+  left: 129.03px;
+  height: 14px;
+  z-index: 1;
 }
 
 .div12 {
-    position: absolute;
-    top: 147px;
-    left: calc(50% - 528px);
-    height: 549px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 23px;
+  position: absolute;
+  top: 147px;
+  left: calc(50% - 528px);
+  height: 549px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 23px;
 }
 
 .div13 {
-    width: 1056px;
-    position: relative;
-    height: 534px;
+  width: 1056px;
+  position: relative;
+  height: 534px;
 }
 
 .a2 {
-    position: absolute;
-    top: calc(50% - 267px);
-    left: 0px;
-    border-radius: 48px;
-    background-color: #fff;
-    height: 534px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 0px 54px;
-    box-sizing: border-box;
+  position: absolute;
+  top: calc(50% - 267px);
+  left: 0px;
+  border-radius: 48px;
+  background-color: #fff;
+  height: 534px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 54px;
+  box-sizing: border-box;
 }
 
 .figurelatest-insights-218357 {
-    width: 320px;
-    position: relative;
-    height: 180px;
-    overflow: hidden;
-    flex-shrink: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    z-index: 0;
+  width: 320px;
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 0;
 }
 
 .build-your-vision-with-our-web {
-    position: absolute;
-    top: -188px;
-    left: -30px;
-    width: 350.8px;
-    height: 409px;
-    object-fit: cover;
+  position: absolute;
+  top: -188px;
+  left: -30px;
+  width: 350.8px;
+  height: 409px;
+  object-fit: cover;
 }
 
 .equipe-mixte-de-programmeurs-t-icon {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 334.2px;
-    height: 188px;
-    object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 334.2px;
+  height: 188px;
+  object-fit: cover;
 }
 
 .div14 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 47px 50.1px 48px 48px;
-    gap: 25px;
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 47px 50.1px 48px 48px;
+  gap: 25px;
+  z-index: 1;
 }
 
 .website-creation-and {
-    width: 199px;
-    position: relative;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    flex-shrink: 0;
+  width: 199px;
+  position: relative;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  flex-shrink: 0;
 }
 
 .showcase-websites {
-    margin: 0;
+  margin: 0;
 }
 
 .showcase-websites-dynamic-container1 {
-    width: 100%;
+  width: 100%;
 }
 
 .showcase-websites-dynamic-container {
-    width: 221.9px;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+  width: 221.9px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .professionalism {
-    position: relative;
-    line-height: 20px;
-    font-weight: 800;
+  position: relative;
+  line-height: 20px;
+  font-weight: 800;
 }
 
 .p {
-    margin: 0 !important;
-    position: absolute;
-    height: calc(100% - 490px);
-    width: calc(100% - 159.6px);
-    top: 32px;
-    right: 139.6px;
-    bottom: 458px;
-    left: 20px;
-    border-radius: 48px;
-    background-color: #f3f8ff;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 12px 20.4px 12px 20px;
-    box-sizing: border-box;
-    z-index: 2;
-    text-align: left;
-    font-size: 15px;
+  margin: 0 !important;
+  position: absolute;
+  height: calc(100% - 490px);
+  width: calc(100% - 159.6px);
+  top: 32px;
+  right: 139.6px;
+  bottom: 458px;
+  left: 20px;
+  border-radius: 48px;
+  background-color: #f3f8ff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 20.4px 12px 20px;
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: left;
+  font-size: 15px;
 }
 
 .a3 {
-    position: absolute;
-    height: 100%;
-    top: 0px;
-    bottom: 0px;
-    left: 736px;
-    border-radius: 48px;
-    background-color: #fff;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 0px 24px;
-    box-sizing: border-box;
-    font-size: 24px;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 736px;
+  border-radius: 48px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 24px;
+  box-sizing: border-box;
+  font-size: 24px;
 }
 
 .community-management {
-    width: 205.8px;
-    position: relative;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 205.8px;
+  position: relative;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-media-management-visual-container {
-    width: 222.8px;
-    position: relative;
-    font-size: 15px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+  width: 222.8px;
+  position: relative;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .div15 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 47px 49.2px 48px 48px;
-    gap: 25px;
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 47px 49.2px 48px 48px;
+  gap: 25px;
+  z-index: 1;
 }
 
 .p1 {
-    margin: 0 !important;
-    position: absolute;
-    height: calc(100% - 490px);
-    width: calc(100% - 207.6px);
-    top: 24px;
-    right: 183.6px;
-    bottom: 466px;
-    left: 24px;
-    border-radius: 48px;
-    background-color: #f3f8ff;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 12px 20.4px 12px 20px;
-    box-sizing: border-box;
-    z-index: 2;
-    text-align: left;
-    font-size: 15px;
+  margin: 0 !important;
+  position: absolute;
+  height: calc(100% - 490px);
+  width: calc(100% - 207.6px);
+  top: 24px;
+  right: 183.6px;
+  bottom: 466px;
+  left: 24px;
+  border-radius: 48px;
+  background-color: #f3f8ff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 20.4px 12px 20px;
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: left;
+  font-size: 15px;
 }
 .p2 {
-  	margin: 0 !important;
-  	position: absolute;
-  	height: calc(100% - 490px);
-  	width: calc(100% - 225.7px);
-  	top: 24px;
-  	right: 201.7px;
-  	bottom: 466px;
-  	left: 24px;
-  	border-radius: 48px;
-  	background-color: #f3f8ff;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: flex-start;
-  	justify-content: flex-start;
-  	padding: 12px 21.3px 12px 20px;
-  	box-sizing: border-box;
-  	z-index: 2;
-  	text-align: left;
-  	font-size: 15px;
+  margin: 0 !important;
+  position: absolute;
+  height: calc(100% - 490px);
+  width: calc(100% - 225.7px);
+  top: 24px;
+  right: 201.7px;
+  bottom: 466px;
+  left: 24px;
+  border-radius: 48px;
+  background-color: #f3f8ff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 21.3px 12px 20px;
+  box-sizing: border-box;
+  z-index: 2;
+  text-align: left;
+  font-size: 15px;
 }
 .a4 {
-    position: absolute;
-    height: 100%;
-    top: 0px;
-    bottom: 0px;
-    left: 368px;
-    border-radius: 48px;
-    background-color: #fff;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 368px;
+  border-radius: 48px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .div16 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 47px 52.8px 48px 48px;
-    gap: 25px;
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 47px 52.8px 48px 48px;
+  gap: 25px;
+  z-index: 1;
 }
 
 .design-and-graphics {
-    width: 198.2px;
-    position: relative;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 198.2px;
+  position: relative;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .brand-guidelines-logo-container {
-    width: 219.2px;
-    position: relative;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+  width: 219.2px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .div17 {
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -373,395 +371,394 @@ body {
 }
 
 .section1 {
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 84px 132px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 84px 132px;
 }
 
 .mainprimary {
-    
-    position: relative;
-    margin-top: 40px; /* replaces absolute positioning */
-    width: 100%;
+  position: relative;
+  margin-top: 40px; /* replaces absolute positioning */
+  width: 100%;
+  top: 810px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 36px;
 
-    top: 810px;
-    left: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 36px;
 }
 
 .footer {
-    position: absolute;
-    top: 4419px;
-    left: 0px;
-    background-color: #02033b;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 96px 192px;
-    font-size: 23px;
-    color: #fff;
+  position: absolute;
+  top: 4419px;
+  left: 0px;
+  background-color: #02033b;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 96px 192px;
+  font-size: 23px;
+  color: #fff;
 }
 
 .div31 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: #f3f8ff;
-    width: 1440px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 24px 120px;
-    box-sizing: border-box;
-    gap: 410.8px;
-    font-size: 19px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #f3f8ff;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 120px;
+  box-sizing: border-box;
+  gap: 410.8px;
+  font-size: 19px;
 }
 
 .div32 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 48px;
-    z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+  z-index: 2;
 }
 
 .button {
-    width: 276px;
-    border-radius: 3.69px;
-    background-color: #000;
-    height: 36.9px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 64.6px;
-    box-sizing: border-box;
+  width: 276px;
+  border-radius: 3.69px;
+  background-color: #000;
+  height: 36.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 64.6px;
+  box-sizing: border-box;
 }
 
 .button2 {
-    width: 276px;
-    border-radius: 3.69px;
-    background-color: #f9d783;
-    height: 36.9px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 64.6px;
-    box-sizing: border-box;
+  width: 276px;
+  border-radius: 3.69px;
+  background-color: #f9d783;
+  height: 36.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 64.6px;
+  box-sizing: border-box;
 }
 
 .no-credit-card {
-    position: relative;
-    font-size: 12.92px;
-    line-height: 24px;
-    font-family: Poppins;
-    color: #444;
-    text-align: left;
+  position: relative;
+  font-size: 12.92px;
+  line-height: 24px;
+  font-family: Poppins;
+  color: #444;
+  text-align: left;
 }
 
 .no-credit-card1 {
-    position: relative;
-    font-size: 12.92px;
-    line-height: 24px;
-    font-family: Poppins;
-    color: #fff;
-    text-align: left;
+  position: relative;
+  font-size: 12.92px;
+  line-height: 24px;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
 }
 
 .email-address {
-    position: relative;
+  position: relative;
 }
 
 .inputnewsletter-email {
-    position: absolute;
-    width: calc(100% - 109.2px);
-    top: 0px;
-    right: 109.2px;
-    left: 0px;
-    border-radius: 21px 0px 0px 21px;
-    background-color: #fff;
-    height: 34.4px;
+  position: absolute;
+  width: calc(100% - 109.2px);
+  top: 0px;
+  right: 109.2px;
+  left: 0px;
+  border-radius: 21px 0px 0px 21px;
+  background-color: #fff;
+  height: 34.4px;
 }
 
 .submit {
-    position: absolute;
-    top: 8px;
-    left: calc(50% - 27.37px);
-    line-height: 18.4px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 54.9px;
-    height: 18px;
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 27.37px);
+  line-height: 18.4px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54.9px;
+  height: 18px;
 }
 
 .button4 {
-    position: absolute;
-    width: calc(100% - 254.8px);
-    top: 0px;
-    right: 0px;
-    left: 254.8px;
-    border-radius: 0px 21px 21px 0px;
-    background-color: #02033b;
-    height: 34.4px;
-    text-align: center;
-    color: #fff;
+  position: absolute;
+  width: calc(100% - 254.8px);
+  top: 0px;
+  right: 0px;
+  left: 254.8px;
+  border-radius: 0px 21px 21px 0px;
+  background-color: #02033b;
+  height: 34.4px;
+  text-align: center;
+  color: #fff;
 }
 
 .formnewsletter-signup-footer- {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 42px;
-    background-color: #ffc247;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 35px 36px 36px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 42px;
+  background-color: #ffc247;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 35px 36px 36px;
 }
 
 .div28 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 36px;
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px;
+  z-index: 1;
 }
 
 .div29 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 5.8px 0px 0px;
-    gap: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 5.8px 0px 0px;
+  gap: 21px;
 }
 
 .formnewsletter-signup-footer-1 {
-    width: 436px;
-    position: absolute;
-    margin: 0 !important;
-    top: 0px;
-    left: 0px;
-    height: 232.4px;
-    z-index: 0;
+  width: 436px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: 0px;
+  height: 232.4px;
+  z-index: 0;
 }
 
 .sign-up-to {
-    position: relative;
-    letter-spacing: -0.48px;
-    line-height: 30px;
-    font-weight: 800;
+  position: relative;
+  letter-spacing: -0.48px;
+  line-height: 30px;
+  font-weight: 800;
 }
 
 .receive-the-latest {
-    width: 358.2px;
-    position: relative;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
+  width: 358.2px;
+  position: relative;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .div30 {
-    width: 364px;
-    position: relative;
-    height: 34.4px;
-    font-size: 15px;
-    color: rgba(2, 3, 59, 0.5);
+  width: 364px;
+  position: relative;
+  height: 34.4px;
+  font-size: 15px;
+  color: rgba(2, 3, 59, 0.5);
 }
 
 .div24 {
-    width: 1056px;
-    position: relative;
-    height: 584px;
+  width: 1056px;
+  position: relative;
+  height: 584px;
 }
 
 .group-parent {
-    width: 366px;
-    position: relative;
-    height: 789px;
+  width: 366px;
+  position: relative;
+  height: 789px;
 }
 
 .group-item {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 9.23px;
-    background-color: #000b6b;
-    border: 2.8px solid #001c80;
-    box-sizing: border-box;
-    width: 366.9px;
-    height: 837px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 9.23px;
+  background-color: #000b6b;
+  border: 2.8px solid #001c80;
+  box-sizing: border-box;
+  width: 366.9px;
+  height: 837px;
 }
 
 .frame-group {
-    position: absolute;
-    top: 45px;
-    left: calc(50% - 143.16px);
-    background-color: #000b6b;
-    width: 288.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 28px;
+  position: absolute;
+  top: 45px;
+  left: calc(50% - 143.16px);
+  background-color: #000b6b;
+  width: 288.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
 }
 
 .step-up-your {
-    width: 308px;
-    position: relative;
-    font-weight: 300;
-    color: #fff;
-    text-align: left;
-    display: inline-block;
+  width: 308px;
+  position: relative;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
 }
 
 .frame-inner {
-    width: 276.7px;
-    position: relative;
-    border-top: 0.9px solid #fff;
-    box-sizing: border-box;
-    height: 0.9px;
-    opacity: 0.4;
+  width: 276.7px;
+  position: relative;
+  border-top: 0.9px solid #fff;
+  box-sizing: border-box;
+  height: 0.9px;
+  opacity: 0.4;
 }
 
 .per-month1 {
-    position: relative;
-    font-size: 14.77px;
-    line-height: 24px;
-    font-weight: 600;
-    opacity: 0.8;
+  position: relative;
+  font-size: 14.77px;
+  line-height: 24px;
+  font-weight: 600;
+  opacity: 0.8;
 }
 
 .group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    font-size: 66.47px;
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 66.47px;
+  color: #fff;
 }
 
 .publication-week {
-    position: absolute;
-    top: 0px;
-    left: 26.8px;
-    line-height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 26.8px;
+  line-height: 24px;
 }
 
 .check-fill-icon {
-    position: absolute;
-    top: 0.92px;
-    left: 0px;
-    width: 22.2px;
-    height: 22.2px;
-    object-fit: cover;
+  position: absolute;
+  top: 0.92px;
+  left: 0px;
+  width: 22.2px;
+  height: 22.2px;
+  object-fit: cover;
 }
 
 .publication-week-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 172.8px;
-    height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 172.8px;
+  height: 24px;
 }
 
 .group-wrapper {
-    width: 172.8px;
-    position: relative;
-    height: 24px;
+  width: 172.8px;
+  position: relative;
+  height: 24px;
 }
 
 .videos-month {
-    position: absolute;
-    top: 0px;
-    left: 26.8px;
-    line-height: 24px;
-    white-space: pre-wrap;
+  position: absolute;
+  top: 0px;
+  left: 26.8px;
+  line-height: 24px;
+  white-space: pre-wrap;
 }
 
 .videos-month-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 152.8px;
-    height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 152.8px;
+  height: 24px;
 }
 
 .group-frame {
-    width: 152.8px;
-    position: relative;
-    height: 24px;
+  width: 152.8px;
+  position: relative;
+  height: 24px;
 }
 
 .month-free-for-any-annual-paym-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 299.8px;
-    height: 24px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 299.8px;
+  height: 24px;
 }
 
 .group-div {
-    width: 299.8px;
-    position: relative;
-    height: 24px;
+  width: 299.8px;
+  position: relative;
+  height: 24px;
 }
 
 .frame-div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 14px;
-    text-align: left;
-    color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+  text-align: left;
+  color: #000;
 }
 
 .backorder {
-    position: relative;
-    line-height: 22.16px;
+  position: relative;
+  line-height: 22.16px;
 }
 
 .button1 {
-    width: 75.7px;
-    border-radius: 3.69px;
-    background-color: #a9b2ff;
-    height: 22.2px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: Roboto;
+  width: 75.7px;
+  border-radius: 3.69px;
+  background-color: #a9b2ff;
+  height: 22.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
 }
 
 .frame-container {
-    width: 97.7px;
-    position: relative;
-    height: 39.1px;
-    color: #000b33;
+  width: 97.7px;
+  position: relative;
+  height: 39.1px;
+  color: #000b33;
 }
 
 .publication-week-group {
-    position: absolute;
+  position: absolute;
 }
 /* Lets Build Your Digital Success Together css section */
 .certosoftwarecom {
@@ -773,15 +770,7 @@ body {
   font-family: Inter;
 }
 
-.mainprimary {
-  position: relative;
-  margin-top: 810px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: 36px;
-}
+
 
 .section1 {
   background-color: #fff;
@@ -791,11 +780,8 @@ body {
   justify-content: center;
   padding: 84px 5%;
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
 }
-
-
 
 .div18 {
   width: 45%;
@@ -868,23 +854,28 @@ body {
 
 .figure {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  top: -7px;
-  left: 7px;
+  height: calc(100% + 14px);
+  width: calc(100% + 14px);
+  top: -7.02px;
+  right: -21.02px;
+  bottom: -6.98px;
+  left: 7.02px;
   background-color: #ffc247;
-  z-index: 0;
 }
 
 .adobestock-350132639-scaled-2-icon {
-  
-  width: 100%;
-  height: auto;
-  object-fit: cover;
   z-index: 1;
-  border-radius: 8px;
-  display: block;
   position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .div20 {
@@ -903,11 +894,13 @@ body {
 
   .div17 {
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
+    padding: 0;
   }
 
   .div18 {
-    width: 45%;
+     width: auto; /* remove the forced 45% width */
+    max-width: 100%; /* make it flexible */
     padding: 0;
   }
 
