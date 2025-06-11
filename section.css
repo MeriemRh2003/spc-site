@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.certosoftwarecom {
+  width: 100%;
+  position: relative;
+  height: 5195px;
+  text-align: left;
+  font-size: 60px;
+  color: #02033b;
+  font-family: Inter;
+}
+
+.mainprimary {
+  position: absolute;
+  top: 810px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 36px;
+}
+.section1 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 84px 132px;
+}
+.div17 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 60px 0px 0px;
+  gap: 60px;
+}
+.div18 {
+  width: 588px;
+  position: relative;
+  height: 496px;
+}
+.lets-build-your-container {
+  position: absolute;
+  top: 2px;
+  left: 60px;
+  letter-spacing: -0.72px;
+  line-height: 45px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 446.4px;
+  height: 130px;
+}
+.showcase-websites {
+  margin: 0;
+}
+.showcase-websites-dynamic-container1 {
+  width: 100%;
+}
+.showcase-websites-dynamic-container {
+  width: 221.9px;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.we-help-businesses {
+  position: absolute;
+  top: 175px;
+  left: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  width: 448.2px;
+  height: 112px;
+}
+.spanafter-icon3 {
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4.25px;
+  left: 125px;
+  height: 14px;
+  z-index: 1;
+}
+.span2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 4.7px 0px 0px;
+  position: relative;
+}
+.a5 {
+  border-radius: 42px;
+  background-color: #ffc247;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 51.1px 15.5px 20px;
+  box-sizing: border-box;
+}
+.div19 {
+  position: absolute;
+  top: 434.52px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 223.3px 0px 0px;
+  box-sizing: border-box;
+  font-size: 19px;
+}
+.figure {
+  position: absolute;
+  height: calc(100% + 14px);
+  width: calc(100% + 14px);
+  top: -7.02px;
+  right: -21.02px;
+  bottom: -6.98px;
+  left: 7.02px;
+  background-color: #ffc247;
+}
+.adobestock-350132639-scaled-2-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div20 {
+  width: 468px;
+  position: relative;
+  height: 468px;
+}
+/* responsive design */
+@media (max-width: 768px) {
+  .section1 {
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: center;
+  }
+
+  .div17 {
+    flex-direction: column;
+    padding: 0;
+    gap: 40px;
+  }
+
+  .div18 {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+  }
+
+  .lets-build-your-container,
+  .we-help-businesses,
+  .div19 {
+    position: static;
+    width: 100%;
+    max-width: 500px;
+    padding: 0;
+  }
+
+  .lets-build-your-container {
+    line-height: 1.4;
+    font-size: 24px;
+  }
+
+  .we-help-businesses {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+
+  .div19 {
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .div20 {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    position: relative;
+  }
+
+  .figure {
+    height: 100%;
+    width: 100%;
+    top: -5px;
+    left: 5px;
+  }
+
+  .adobestock-350132639-scaled-2-icon {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .div19 {
+    margin-top: 50px; /* creates space below the text */
+    font-size: 16px; /* Smaller font size */
+    padding: 0;
+  }
+
+  .a5 {
+    padding: 12px 30px; /* smaller padding for smaller button */
+  }
+
+  .get-started {
+    font-size: 14px; /* slightly smaller text */
+  }
+
+  .spanafter-icon3 {
+    position: static; /* remove absolute positioning */
+    width: 16px;
+    height: 12px;
+    margin-left: 8px;
+  }
+
+  .span2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+}
