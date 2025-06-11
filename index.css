@@ -684,7 +684,6 @@
   	position: relative;
 }
 .a5 {
-  	width: 183px;
   	border-radius: 42px;
   	background-color: #ffc247;
   	overflow: hidden;
@@ -692,14 +691,14 @@
   	flex-direction: row;
   	align-items: flex-start;
   	justify-content: flex-start;
-  	padding: 16px 52px 15.5px 20px;
+  	padding: 16px 51.1px 15.5px 20px;
   	box-sizing: border-box;
 }
 .div19 {
   	position: absolute;
   	top: 434.52px;
   	left: 60px;
-  	height: 7px;
+
   	display: flex;
   	flex-direction: column;
   	align-items: flex-start;
