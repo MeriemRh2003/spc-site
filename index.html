@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Responsive Navbar</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
@@ -37,13 +38,13 @@
           comprehensive solutions: website creation, community management,
           graphic design, and marketing strategy.
         </p>
-        <button class="get-started">Get Started</button>
+        <button class="get-started"> Get Started <i class="fa-solid fa-arrow-right"></i></button>
       </section>
       <!-- Corporate Values Section -->
       <section class="corporate-values">
         <h1>Corporate values</h1>
         <div class="corporate-values-cards">
-          <div class="card">
+          <div class="cardV">
             <div class="stars">
               <img src="star.svg" alt="star" />
               <img src="star.svg" alt="star" />
@@ -57,7 +58,7 @@
             </p>
             <div class="title">Innovation</div>
           </div>
-          <div class="card">
+          <div class="cardV">
             <div class="stars">
               <img src="star.svg" alt="star" />
               <img src="star.svg" alt="star" />
@@ -71,7 +72,7 @@
             </p>
             <div class="title">Proximity</div>
           </div>
-          <div class="card">
+          <div class="cardV">
             <div class="stars">
               <img src="star.svg" alt="star" />
               <img src="star.svg" alt="star" />
@@ -88,6 +89,66 @@
         </div>
       </section>
     </main>
+    <!--pricing-section-->
+<section id="pricing">
+  <div class="pricing-container">
+    
+    <!-- Starter -->
+    <div class="card">
+      <span class="plan-name">Starter</span>
+      <p class="plan-description">Get started with essential digital services: basic social media management, and support to grow your online presence.</p>
+      <hr class="white">
+      <h2 class="plan-price">200€</h2>
+      <p class="per-month">Per month</p>
+      <hr class="white">
+      <ul class="features">
+        <li><i class="fa fa-check-circle"></i> 1 publication / week</li>
+        <li><i class="fa fa-check-circle"></i> 2 videos / Month</li>
+        <li><i class="fa fa-check-circle"></i> 1 month free for any annual payment</li>
+      </ul>
+      <button class="start-trial">Start free 14-day Trial</button>
+      <p class="no-cc">No credit card required</p>
+    </div>
+
+    <!-- Premium -->
+    <div class="card popular">
+      <span class="badge">Popular</span>
+      <span class="plan-name">Premium</span>
+      <p class="plan-description">Step up your digital game with advanced enhanced social media strategies, and tailored content to engage your audience.</p>
+      <hr>
+      <h2 class="plan-price">400€</h2>
+      <p class="per-month">Per month</p>
+      <hr">
+      <ul class="features">
+        <li><i class="fa fa-check-circle"></i> 3 publication / week</li>
+        <li><i class="fa fa-check-circle"></i> 4 videos / Month</li>
+        <li><i class="fa fa-check-circle"></i> moderation service</li>
+        <li><i class="fa fa-check-circle"></i> 1 month free for any annual payment</li>
+      </ul>
+      <button class="start-trial yellow">Start free 14-day Trial</button>
+      <p class="no-cc light">No credit card required</p>
+    </div>
+
+    <!-- Pro -->
+    <div class="card">
+      <span class="plan-name">Pro</span>
+      <p class="plan-description">Enjoy the full digital experience with a complete, high-end social media management, video content, and priority support.</p>
+      <hr class="white">
+      <h2 class="plan-price">300€</h2>
+      <p class="per-month">Per month</p>
+      <hr class="white">
+      <ul class="features">
+        <li><i class="fa fa-check-circle"></i> 2 publication / week</li>
+        <li><i class="fa fa-check-circle"></i> 3 videos / Month</li>
+        <li><i class="fa fa-check-circle"></i> 1 month free for any annual payment</li>
+      </ul>
+      <button class="start-trial">Start free 14-day Trial</button>
+      <p class="no-cc">No credit card required</p>
+    </div>
+
+  </div>
+</section>
+
     <!--footer-->
     <footer class="footer">
       <div class="footer-container">
@@ -109,8 +170,7 @@
           </p>
           <p>Designed & developed by <a href="#">Bigger Picture</a></p>
           <p class="disclaimer">
-            Apple, the Apple logo, and iPhone are trademarks of Apple Inc...
-            Google LLC.
+            Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.
           </p>
         </div>
         <div class="footer-right">
