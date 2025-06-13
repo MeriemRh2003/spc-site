@@ -100,6 +100,35 @@ body {
     text-align: center;
   }
 }
+.lang-btn a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #4335de;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  border: 2px solid #4335de;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.lang-btn a:hover {
+  background-color: #4335de;
+  color: white;
+}
+@media (max-width: 768px) {
+  .lang-btn {
+    width: 100%;
+  }
+
+  .lang-btn a {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+  }
+}
 
 
 .footer {
@@ -1077,5 +1106,6 @@ body {
     top: -5px;
     left: 5px;
   }
+  
 }
 
